@@ -1,13 +1,15 @@
-import { Footer, Navbar } from '@/components'
 import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import { Footer, Navbar } from '@/components'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Аренда машин',
   description: 'Откройте для себя лучшие автомобили в мире!',
+  icons: {
+    icon: '/project-logo.png',
+    apple: '/project-logo.png',
+  },
 }
 
 export default function RootLayout({
