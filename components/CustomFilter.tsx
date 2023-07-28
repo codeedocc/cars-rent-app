@@ -8,7 +8,6 @@ import Image from 'next/image'
 import { CustomFilterProps } from '@/types'
 import { Router } from 'next/router'
 import { updateSearchParams } from '@/utils'
-// import { updateSearchParams } from '@/utils'
 
 export default function CustomFilter({ title, options }: CustomFilterProps) {
   const router = useRouter()
